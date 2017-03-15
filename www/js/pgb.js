@@ -23,5 +23,5 @@ function deviceInfo() {
 		dane = "Imienia i nazwiska nie podaje.";
 	}
 	
-	navigator.notification.alert(info);
+	navigator.notification.alert(dane);
 }
