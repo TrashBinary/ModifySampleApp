@@ -19,9 +19,13 @@ function deviceInfo() {
 
 	navigator.notification.alert(info);
 
-	function mojeDaneOsobowe() {
-		dane = 'Imienia i nazwiska nie podaje.';
-	}
+}
+
+//Funkcja, która ma wyświetlać dane osobowe:
+
+function mojeDaneOsobowe() {
+
+	dane = 'Imienia i nazwiska nie podaje.'
 
 	navigator.notification.alert(dane);
 }
